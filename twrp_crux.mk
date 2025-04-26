@@ -13,6 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from crux device
+PRODUCT_RELEASE_NAME := crux
 $(call inherit-product, device/xiaomi/crux/device.mk)
 
 PRODUCT_DEVICE := crux
