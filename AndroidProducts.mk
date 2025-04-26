@@ -6,9 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_crux.mk
+    $(LOCAL_DIR)/twrp_crux.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_crux-user \
-    omni_crux-userdebug \
-    omni_crux-eng
+    twrp_crux-eng
