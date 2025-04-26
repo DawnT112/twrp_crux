@@ -6,3 +6,13 @@
 #
 
 LOCAL_PATH := device/xiaomi/crux
+TARGET_OTA_ASSERT_DEVICE := crux
+
+# Crypto
+PRODUCT_PACKAGES += \
+    qcom_decrypt \
+    qcom_decrypt_fbe
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
